@@ -1,0 +1,5 @@
+taipy==3.1.0
+pandas
+plotly
+openpyxl
+gunicorn
