@@ -3,4 +3,3 @@ pandas
 plotly
 openpyxl
 gunicorn
-gevent>=24.2.1
