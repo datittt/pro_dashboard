@@ -1,0 +1,38 @@
+:root {
+    --primary: #0078d4;
+    --bg-light: #f3f2f1;
+    --card-shadow: 0 4px 12px 0 rgba(0,0,0,0.05);
+}
+
+.main-container {
+    background-color: var(--bg-light);
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: var(--card-shadow);
+    margin-bottom: 20px;
+    border: 1px solid #edebe9;
+}
+
+.kpi-card {
+    border-left: 5px solid var(--primary);
+    text-align: center;
+}
+
+.sidebar {
+    background-color: #ffffff;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+}
+
+.navbar-container {
+    background: #002d50;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
