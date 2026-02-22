@@ -159,9 +159,16 @@ pages = {
 }
 
 if __name__ == "__main__":
+   
+    port = int(os.environ.get("PORT", 5000))
+    
     Gui(pages=pages).run(
         title="Enterprise BI Dashboard",
         css_file="assets/custom.css",
         viewport_width="100%",
-        dark_mode=False
+        dark_mode=False,
+        
+        host="0.0.0.0", 
+        port=port
+
     )
